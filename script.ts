@@ -73,6 +73,26 @@ const member3Object: TeamMember = {
     console.log(`Active: ${this.isActive}`);
   },
 };
+
+const member4Object: TeamMember = {
+  id: 4,
+  name: "Alarie Somuelo",
+  role: MemberRole.Developer,
+  age: 21,
+  email: "sas0904@dlsud.edu.ph",
+  isActive: true,
+  print(): void {
+    console.log("---- Member 4 ----");
+    console.log(`ID: ${this.id}`);
+    console.log(`Name: ${this.name}`);
+    console.log(`Role: ${roleToString(this.role)}`);
+    console.log(`Age: ${this.age}`);
+    console.log(`Email: ${this.email}`);
+    console.log(`Active: ${this.isActive}`);
+  },
+};
+
 member1Object.print();
 member2Object.print();
 member3Object.print();
+member4Object.print();
