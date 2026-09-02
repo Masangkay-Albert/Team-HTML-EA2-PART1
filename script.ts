@@ -38,4 +38,23 @@ const member1Object: TeamMember = {
   },
 };
 
+const member2Object: TeamMember = {
+  id: 2,
+  name: "Gracy Mae Luna",
+  role: MemberRole.Designer,
+  age: 21,
+  email: "LGC0936@dlsud.edu.ph",
+  isActive: true,
+  print(): void {
+    console.log("---- Member 2 ----");
+    console.log(`ID: ${this.id}`);
+    console.log(`Name: ${this.name}`);
+    console.log(`Role: ${roleToString(this.role)}`);
+    console.log(`Age: ${this.age}`);
+    console.log(`Email: ${this.email}`);
+    console.log(`Active: ${this.isActive}`);
+  },
+};
+
 member1Object.print();
+member2Object.print();
