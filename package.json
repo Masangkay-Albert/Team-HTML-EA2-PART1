@@ -1,0 +1,26 @@
+{
+  "name": "team-html-ea2-part1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "start": "start http://localhost:8080 && npx serve . -l 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Masangkay-Albert/Team-HTML-EA2-PART1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Masangkay-Albert/Team-HTML-EA2-PART1/issues"
+  },
+  "homepage": "https://github.com/Masangkay-Albert/Team-HTML-EA2-PART1#readme",
+  "devDependencies": {
+    "typescript": "^7.0.2"
+  }
+}
